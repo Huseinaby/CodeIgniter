@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Sistem Informasi UKM</h1>
-    <a href="">Home</a>
-    <a href="">Data Mahasiswa</a>
+    <a href=<?php echo site_url('tampil/home'); ?>>Home</a>
+    <a href=<?php echo site_url('tampil/mahasiswa'); ?>>Data Mahasiswa</a>
+    <hr>
